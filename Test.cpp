@@ -122,6 +122,7 @@ TEST_CASE("Test replacement of i and y") {
 	CHECK(find(text, "yllusion") == string("illusion"));
 	CHECK(find(text, "yllusyon") == string("illusion"));
 }
+
 TEST_CASE("Test replacement of lower-case and upper-case") {
     string text = "Happi xxx slEEp yyy";
     CHECK(find(text, "happi") == string("Happi"));
